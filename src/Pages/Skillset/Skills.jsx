@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '@mui/material/Button';
 import './Skills.css';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 const Skills = () => {
     const items = require('../../Api/Api.json')
@@ -13,7 +13,7 @@ const Skills = () => {
               <div className='item-container'>
               {items.map((item) => {
         return (
-            <Fade bottom>
+            // <Fade bottom>
                   <div className='item'>
                       <img src={item.image} alt=""  className='img-product'/>
                       <div className='btn-hide'>
@@ -23,7 +23,7 @@ const Skills = () => {
                           </div>
 
                 </div>
-                </Fade>
+                // </Fade>
               )
             })}
                   

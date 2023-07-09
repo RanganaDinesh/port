@@ -1,5 +1,5 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import './Showcase.css'
 import image from '../../projectimages/Screenshot 2023-07-06 140251.png'
 import image1 from '../../projectimages/Screenshot 2023-06-20 090927.png'
@@ -11,7 +11,7 @@ const Showcase = () => {
       <> <h2 className='project-title' style={{textAlign:'center'}}>PROJECTS</h2>
           <div className='showcase1'>
               
-          <Fade bottom>
+          {/* <Fade bottom> */}
          
              <div className='showcase-container'>
                 
@@ -29,9 +29,9 @@ const Showcase = () => {
                      <div className='showcase-set1' ></div>
                
             </div>
-            </Fade>
+            {/* </Fade> */}
           
-          <Fade bottom>
+          {/* <Fade bottom> */}
        
               <div className='showcase-container'>
                  
@@ -49,9 +49,9 @@ const Showcase = () => {
                       <div className='showcase-set1' ></div>
                 
              </div>
-             </Fade>
+             {/* </Fade> */}
         
-          <Fade bottom>
+          {/* <Fade bottom> */}
              
               <div className='showcase-container'>
                  
@@ -69,7 +69,7 @@ const Showcase = () => {
                       <div className='showcase-set1' ></div>
                 
              </div>
-             </Fade>
+             {/* </Fade> */}
                       
              
           </div>

@@ -6,12 +6,12 @@ import {
     MDBBtn,
     MDBIcon
 } from 'mdb-react-ui-kit';
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 const Techs = () => {
     return (
         <>
-             <Fade bottom>
+             {/* <Fade bottom> */}
             <div style={{ backgroundImage: 'url(https://wallpapercave.com/wp/wp8903914.jpg)' }} className='Tech-container'>
           <h2 className='tech-title'>I'M GOOD AT </h2>
       </div>
@@ -51,8 +51,9 @@ const Techs = () => {
           </MDBBtn>
         </div>
                 </form>
-                </div></Fade>
-            <Fade bottom>
+      </div>
+    {/* </Fade > */}
+            {/* <Fade bottom> */}
             
             <div className='footer'>
       
@@ -151,7 +152,7 @@ const Techs = () => {
 </footer>
 
                 </div>
-                </Fade>
+                {/* </Fade> */}
                 
             </>
   

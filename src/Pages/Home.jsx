@@ -1,7 +1,7 @@
 import React from 'react'
 import profile from '../pic.jpg'
 import './Home.css'
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import TypeWriter from '../Pages/Font/Textanimation'
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
@@ -19,15 +19,15 @@ const Home = () => {
             {/* left -section */}
            
             <div className='container-text'>
-            <Fade bottom>
+            {/* <Fade bottom> */}
                 <div>
                 <span>WELCOME TO MY WORLD</span>
                 <h1>Hi,I’m Dinesh RANGANA  <br /> <TypeWriter data={typeWriter} /></h1>
 
                 <p className='content-p' >I have always been interested in web development, and I have the necessary skills required for the role. I have a good understanding of HTML, CSS, JavaScript, and REACT.JS. I am currently improving my mobile app development skills by learning various new technologies.</p>
                 </div>
-            </Fade>
-                <Fade bottom>
+            {/* </Fade> */}
+                {/* <Fade bottom> */}
               <div>
                   <span>FIND WITH ME</span>
                         <div>
@@ -66,12 +66,12 @@ const Home = () => {
                       
                   </div>
                         </div>
-                        </Fade>
+                        {/* </Fade> */}
               
                 </div>
                 {/* right-section */}
                 <div>
-                <Fade bottom>
+                {/* <Fade bottom> */}
               <div className='frame'>
                         <img src={profile} alt="" className='profile-pic' /> <br />
                        
@@ -107,7 +107,7 @@ const Home = () => {
 ></a>
 
                         </div>
-                        </Fade>
+                        {/* </Fade> */}
                 </div>
                
           
