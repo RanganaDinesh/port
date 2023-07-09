@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import './Navbar.css'
-import profile from '../../pic.jpg'
+import profile from '../../projectimages'
 
 
 
